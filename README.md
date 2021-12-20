@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/oxi1224/NFT-preview](https://github.com/oxi1224/NFT-preview)
+- Live Site URL: [https://oxi1224.github.io/NFT-preview/](https://oxi1224.github.io/NFT-preview/)
 
 ## My process
 
