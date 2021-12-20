@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+#content{
+    text-align: center;
+}
+#box-main a{
+    text-decoration: none;
+}
+#box-main{
+    width: min-content;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 22px 0px 11px hsl(217, 55%, 10%);
+}
+.preview-img{
+    border-radius: 15px;
+    background-image: url('images/image-equilibrium.jpg');
+    background-size: 300px 300px;
+    height: 300px;
+    width: 300px;
+}
+.img-hover{
+    border-radius: 15px;                                                                                   
+    width: 100%;
+    height: 100%;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+}
+.img-hover img{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
+.preview-img:hover .img-hover {
+    opacity: 1;
+    background-color: rgba(0,255,247,0.5);
+    transition: 0.5s;
+}
+.inside-text p{
+    text-align: left;
+    font-weight: 400;
+    color: hsl(213, 24%, 57%);
+    font-size: 18px;
+}
+.inside-text h2{
+    font-weight: 600;
+    text-align: left;
+}
+.inside-text a{
+    color: hsl(0, 0%, 100%);
+}
+.inside-text a:hover{
+    color: hsl(178, 100%, 50%);  
+    transition: 0.5s;
+}
+.eth{
+    display: flex;
+    color: hsl(213, 24%, 57%);
+    font-size: 18px;
+    color: hsl(178, 100%, 50%);
+    text-align: left;
+    width: 100%;
+    justify-content: flex-start;
+    border-bottom: 1px solid hsl(215, 32%, 27%) ;
+}
+.eth p{
+    font-weight: 600;
+    width: 50%;
+}
+.eth::before{
+    content: url('images/icon-ethereum.svg');
+    position: relative;
+    padding-top: 20px;
+    padding-right: 6px;
+}
+.time{
+    display: flex;
+    font-size: 18px;
+    color: hsl(213, 24%, 57%);
+    font-weight: 600;
+    justify-content: flex-end;
+    width: 50%;
+    padding-bottom: 5px;
+}
+.time::before{
+    content: url('images/icon-clock.svg');
+    position: relative;
+    padding-top: 2px;
+    padding-right: 3px;
+}
+.creator{
+    text-align: left;
+    width: 80%;
+    float: left;
+    color: hsl(213, 24%, 57%);
+}
+.creator a{
+    color: hsl(0, 0%, 100%);
+}
+.creator a:hover{
+    color: hsl(178, 100%, 50%);
+    transition: 0.5s;
+}
+.creator-pfp{
+    margin-right: 15px;
+    margin-top: 10px;
+    float: left;
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
